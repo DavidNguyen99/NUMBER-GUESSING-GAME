@@ -21,12 +21,6 @@ function guess() {
   
   else checkNumber(myNumber, randomNumber);
 
-  //round to two decimal places
-
-  //Display the tip
-
-  //showResult(true, "Hello world")
-
 }
 
 //Generate Random Number
@@ -45,7 +39,6 @@ function showResult(win, resultMsg) {
   document.getElementById("tip").innerHTML = resultMsg;
 }
 
-//Hide the tip amount on load
 document.getElementById("result").style.display = "none";
 //click to call function
 document.getElementById("guess").onclick = function() {
